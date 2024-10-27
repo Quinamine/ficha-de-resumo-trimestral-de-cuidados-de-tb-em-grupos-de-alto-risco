@@ -308,7 +308,7 @@
 }
 .layout-row--of-reference {
     display: grid;
-    grid-template-columns: 33px 500px 45px 135px;
+    grid-template-columns: 33px 165px 45px 400px;
     align-items: center;
     min-height: 28px;
     font-size: 12px;
@@ -329,7 +329,7 @@
 }
 @media screen and (max-width: 810px) {
     .layout-row--of-reference {
-        grid-template-columns: 1fr 135px;
+        grid-template-columns: 1fr 2fr;
         grid-column-gap: 3px;
         padding-left: 0;
         padding-right: 0;
@@ -457,6 +457,9 @@
 }
 .artigo__titulo--no-border-t {
     border-top: none;
+}
+.artigo__titulo--no-padding-t {
+    padding-top: 0;
 }
 .artigo__titulo--cor-discreta {
     color: var(--gray);

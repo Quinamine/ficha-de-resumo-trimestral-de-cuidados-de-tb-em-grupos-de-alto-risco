@@ -172,8 +172,8 @@
 .ficha__col-de-indicadores span {
     padding-left: 4px;
 }
-.ficha__col-de-inputs input {
-    width: 100%;
+.ficha__col-de-inputs {
+    grid-template-columns: 63px;
 }
 .ficha__col-de-inputs input:focus,
 .input-nao-celular:focus,
