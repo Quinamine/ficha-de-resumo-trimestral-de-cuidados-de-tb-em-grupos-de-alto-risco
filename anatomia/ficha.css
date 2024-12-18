@@ -125,17 +125,17 @@
     transition-duration: .4s;
 }
 .seccao-1__col-bilinear__linha-inferior span {
-    transform: rotate(-90deg) translate(-146px, 0);
+    transform: rotate(-90deg) translate(-144px, 0);
 }
 .seccao-1__header__indicador--2,
 .seccao-1__header__indicador--3 {
     transform: rotate(-90deg) translate(-176px, 0);
 }
 .seccao-1__col-bilinear__linha-inferior .seccao-1__header__indicador--10 {
-    transform: rotate(-90deg) translate(-139px, 0);
+    transform: rotate(-90deg) translate(-136px, 0);
 }
 @media screen and (min-width: 1024px) {
-    .seccao-1__header__linha-de-indicadores > div.--border-l:hover span {
+    .seccao-1__header__container-de-indicador:hover span {
         transform: rotate(0deg) scale(1.2);
         box-shadow: 0 0 15px var(--gray--d);
         border-radius: 5px;
