@@ -123,7 +123,8 @@
                               <label for="input-periodo">Trimestre em reporte</label>
                           </div>
                           <div class="ficha__col-de-localizacao__linha ficha__col-de-localizacao__linha--margin-t --display-flex-y-center">
-                              <input type="text" id="input-periodo" class="input-nao-celular --fw-700 --border-b">
+                              <input type="text" id="input-periodo" list="datalist-trimestre" class="input-nao-celular --fw-700 --border-b">
+                              <datalist id="datalist-trimestre"></datalist>
                           </div>
                       </div>
                       <div class="ficha__header__col-de-titulo --border-t-thick --border-b-thick">
@@ -296,7 +297,7 @@
                         </datalist>
                     </div>
                     <div class="ficha__rodape__col-de-data">
-                        <label for="input-data" class="ficha__col-de-data__label">Data</label>
+                        <label for="input-data" class="ficha__col-de-data__label">Data:</label>
                         <input type="date" id="input-data" class="input-nao-celular --fw-700 --border-b">
                     </div>
                   </footer> 
@@ -416,7 +417,7 @@
                 <figure>
                     <img alt="Ficha de Resumo Trimestral de Cuidados de TB em Grupos de Alto Risco" src=imagens/ficha-de-resumo-trimestral-de-cuidados-de-tb-em-grupos-de-alto-risco.png class="artigo__img artigo__img--center">
                 </figure>
-                <p>O serviço foi criado de acordo com o modelo da Ficha de Resumo Trimestral de Cuidados de TB em Grupos de Alto Risco actualmente vigente no Serviço Nacional de Saúde em Moçambique e as células são interativas, isto é, pode inserir valores nelas. </p>
+                <p>O serviço foi criado de acordo com o modelo da <a href="fichamodelo/mod-sis-pnct-09.pdf" download="Resumo-Trimestral-de-Cuidados-de-TB-em-Grupos-de-Alto-Risco" target="_blank">Ficha de Resumo Trimestral de Cuidados de TB em Grupos de Alto Risco</a> actualmente vigente no Serviço Nacional de Saúde em Moçambique e as células são interativas, isto é, pode inserir valores nelas. </p>
                     <h3 class="artigo__titulo artigo__titulo--nivel-2">Propósito</h3>
                     <ul class="artigo__lista artigo__lista--ul">
                         <li>Expandir o acesso à Ficha de Resumo Trimestral de Cuidados de TB em Grupos de Alto Risco.</li>
@@ -567,6 +568,7 @@
                 <nav class=footer__nav>
                     <h4 class="footer__nav__title">Hiperligações para outros serviços afins</h4>
                     <ul>
+                        <li><a href=https://quinamine.github.io/totalizador-de-resumo-mensal-de-rastreio-de-tb-usando-rx/index.html class="footer__nav__link">Totalizador de Resumo Mensal de Rastreio de TB usando RX</a></li>
                         <li><a href=https://quinamine.github.io/totalizador-de-resumo-mensal-de-tdi/index.html class="footer__nav__link">Totalizador de Resumo Mensal de TDI</a></li>
                         <li><a href=https://quinamine.github.io/totalizador-de-resumo-mensal-de-nutricao/index.html class="footer__nav__link">Totalizador de Resumo Mensal de Nutrição</a></li>
                         <li><a href=https://quinamine.github.io/totalizador-de-resumo-mensal-de-its/index.html class="footer__nav__link">Totalizador de Resumo Mensal de ITS</a></li>
