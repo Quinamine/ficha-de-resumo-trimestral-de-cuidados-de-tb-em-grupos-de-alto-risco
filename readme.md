@@ -2,7 +2,7 @@
 
 ![Trecho do serviço Ficha de Resumo Trimestral de Cuidados de TB em Grupos de Alto Risco](imagens/ficha-de-resumo-trimestral-de-cuidados-de-tb-em-grupos-de-alto-risco.png)
 
-O serviço foi criado de acordo com o modelo da Ficha de Resumo Trimestral de Cuidados de TB em Grupos de Alto Risco actualmente vigente no Serviço Nacional de Saúde em Moçambique e as células são interativas, isto é, pode inserir valores nelas.
+O serviço foi desenvolvido de acordo com o modelo da Ficha de Resumo Trimestral de Cuidados de TB em Grupos de Alto Risco actualmente vigente no Serviço Nacional de Saúde em Moçambique e as células são interativas, isto é, pode inserir valores nelas.
 
 
 ## Propósito
